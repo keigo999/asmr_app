@@ -5,4 +5,7 @@ class HomeController < ApplicationController
   def asmr_top
   end
 
+  def sound_search
+  end
+
 end
