@@ -16,6 +16,8 @@ class HomeController < ApplicationController
 
   #検索結果表示ページ
   def search_list
+    @query = params[:query]
+    search(@query)
   end
 
 end

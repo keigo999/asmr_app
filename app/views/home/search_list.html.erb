@@ -1,3 +1,4 @@
-<%= @url %>
-<img src="@image">
-<%= @title %>
+<%= link_to @title, "http://www.youtube.com/embed/@url" %>
+<div>
+  <img src="<%= @image %>" width="300" height="200">
+</div>
