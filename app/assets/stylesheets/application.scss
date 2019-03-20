@@ -94,5 +94,16 @@ p {
   margin: 0;
 }
 
+// sound_search.html.erb
 
+.sound_image {
+  width: 100%;
+  height: 1000px;
+  background-image: url("search1.jpg");
+  background-size: cover;
+}
+
+.search_form {
+  width: 50%
+}
 

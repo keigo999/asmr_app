@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get 'home/top'
   get "home/asmr_top" => "home#asmr_top"
   get "home/sound_search" => "home#sound_search"
+  post "home/search_list" => "home#search_list"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
