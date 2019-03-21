@@ -4,6 +4,16 @@ class HomeController < ApplicationController
 
   
   def top
+    @user = User.new
+  end
+
+  def create
+    @user = User.new(user_params)
+    if @user.save
+      redirect_to home_asmr_top_path
+    else
+      render "top"
+    end
   end
 
   #ランディングページ
@@ -20,4 +30,9 @@ class HomeController < ApplicationController
     search(@query)
   end
 
+  private
+
+  def user_params
+    params.require(:user).permit(:name, :password, :password_confirmation)
+  end
 end
