@@ -1,9 +1,15 @@
 Rails.application.routes.draw do
-  root "home#top"
-  get 'home/top'
+  root "sessions#top"
   get "home/asmr_top" => "home#asmr_top"
+
   get "home/sound_search" => "home#sound_search"
+
   post "home/search_list" => "home#search_list"
-  post "home/create" => "home#create"
+
+  post "sessions/create" => "sessions#create"
+
+  post "sessions/login" => "sessions#login"
+  
+  get 'sessions/top' => "sessions#top"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
