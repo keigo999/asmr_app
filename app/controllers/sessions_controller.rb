@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+  include SessionsHelper
 
   def top
     @user = User.new
@@ -7,6 +8,7 @@ class SessionsController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
+      log_in(@user)
       flash[:notice] = "登録に成功しました"
       redirect_to home_asmr_top_path
     else
@@ -16,11 +18,18 @@ class SessionsController < ApplicationController
 
   def login
     user = User.find_by(name: params[:name], password: params[:password])
-    if user 
+    if user
+      log_in(user)
+      flash[:notice] = "またお越しいただきありがとうございます"
       redirect_to home_asmr_top_path
     else
       render "top"
     end
+  end
+
+  def destroy
+    log_out
+    redirect_to root_path
   end
 
 
