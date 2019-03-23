@@ -18,5 +18,9 @@ Rails.application.routes.draw do
 
   delete "/logout" => "sessions#destroy"
 
+  # asmr検索用特殊ルート(耳かき、シャンプー、タッピング)
+  get "home/head_spa" => "home#head_spa"
+  get "home/ear_pick" => "home#ear_pick"
+  get "home/typing" => "home#typing"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

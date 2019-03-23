@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
+  caches_action :search_list
   include  HomeHelper
   require 'google/apis/youtube_v3'
 
@@ -13,6 +14,7 @@ class HomeController < ApplicationController
 
   #検索結果表示ページ
   def search_list
+    Rails.cache.clear
     @query = params[:query]
     search(@query)
   end
@@ -21,7 +23,32 @@ class HomeController < ApplicationController
   def favolite
   end
 
+  # ブラウザバック用アクション
   def search_response
+    render "search_list"
+    Rails.cache.clear
+  end
+
+  # シャンプーボタン用アクション
+  def head_spa
+    Rails.cache.clear
+    @query = "asmrシャンプー"
+    search(@query)
+    render "search_list"
+  end
+
+  # 耳かきボタン用アクション
+  def ear_pick
+    Rails.cache.clear
+    @query = "asmr耳かき"
+    search(@query)
+    render "search_list"
+  end
+
+  def typing
+    Rails.cache.clear
+    @query = "asmrタッピング"
+    search(@query)
     render "search_list"
   end
 end

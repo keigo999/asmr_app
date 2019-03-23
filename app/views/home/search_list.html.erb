@@ -1,31 +1,32 @@
-<div class = "search_list_box">
-  <div class = "container">
-    <div class = "row">
-      <div class = "col-md-6">
-        <img class = "text-center" src="<%= @image0 %>" width="100%" height="200">
-        <p class = "mb-0">動画タイトル</p>
-        <%= link_to @title0, "http://www.youtube.com/embed/#{@url0}" %>
-        <p class = "mb-0">チャンネル名</p>
-        <%= link_to @c_title0, "https://www.youtube.com/channel/#{@channel_id}" %>
-      </div>
+<% cache "url" do %>
 
-      
-      <div class = "col-md-6">
-        <img src="<%= @image1 %>" width="100%" height="200">
-        <p class = "mb-0">動画タイトル</p>
-        <%= link_to @title1, "http://www.youtube.com/embed/#{@url1}" %>
-      </div>
+  <div class = "search_list_box">
+    <div class = "container">
+      <div class = "row pt-5">
+        <div class = "col-md-4 offset-md-1">
+          <img class = "text-center" src="<%= @image0 %>" width="100%" height="200">
+          <p class = "mb-0">動画タイトル</p>
+          <%= link_to @title0, "http://www.youtube.com/embed/#{@url0}" %>
+        </div>
 
-      <div class = "col-md-6">
-        <img src="<%= @image2 %>" width="100%" height="200">
-        <p class = "mb-0">動画タイトル</p>
-        <%= link_to @title2, "http://www.youtube.com/embed/#{@url2}" %>
-      </div>
+        
+        <div class = "col-md-4 offset-md-2">
+          <img src="<%= @image1 %>" width="100%" height="200">
+          <p class = "mb-0">動画タイトル</p>
+          <%= link_to @title1, "http://www.youtube.com/embed/#{@url1}" %>
+        </div>
 
-      <div class = "col-md-6">
-        <img src="<%= @image3 %>" width="100%" height="200">
-        <p class = "mb-0">動画タイトル</p>
-        <%= link_to @title3, "http://www.youtube.com/embed/#{@url3}" %>
-      </div>
+        <div class = "col-md-4 offset-md-1 pt-5">
+          <img src="<%= @image2 %>" width="100%" height="200">
+          <p class = "mb-0">動画タイトル</p>
+          <%= link_to @title2, "http://www.youtube.com/embed/#{@url2}" %>
+        </div>
+
+        <div class = "col-md-4 offset-md-2 pt-5">
+          <img src="<%= @image3 %>" width="100%" height="200">
+          <p class = "mb-0">動画タイトル</p>
+          <%= link_to @title3, "http://www.youtube.com/embed/#{@url3}" %>
+        </div>
+    </div>
   </div>
-</div>
+<% end %>
