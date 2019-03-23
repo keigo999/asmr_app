@@ -16,4 +16,12 @@ class HomeController < ApplicationController
     @query = params[:query]
     search(@query)
   end
+
+  # お気に入り管理ページ
+  def favolite
+  end
+
+  def search_response
+    render "search_list"
+  end
 end

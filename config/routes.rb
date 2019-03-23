@@ -2,9 +2,13 @@ Rails.application.routes.draw do
   root "sessions#top"
   get "home/asmr_top" => "home#asmr_top"
 
+  get "/favorite" => "home#favorite"
+
   get "home/sound_search" => "home#sound_search"
 
   post "home/search_list" => "home#search_list"
+
+  get "home/search_list" => "home#search_response"
 
   post "sessions/create" => "sessions#create"
 
@@ -12,6 +16,7 @@ Rails.application.routes.draw do
   
   get 'sessions/top' => "sessions#top"
 
-  delete "/logout", => "sessions#destroy"
+  delete "/logout" => "sessions#destroy"
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

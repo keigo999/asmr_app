@@ -13,6 +13,9 @@ module HomeHelper
       instance_variable_set('@title' + i.to_s, url[:items][i][:snippet][:title])
       instance_variable_set('@c_title' + i.to_s, url[:items][i][:channelTitle])
       instance_variable_set('@c_id' + i.to_s, url[:items][i][:snippet][:channelId])
+
+      p @c_title0
+      p @c_id0
     end
   end
 end
