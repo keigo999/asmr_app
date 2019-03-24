@@ -51,4 +51,8 @@ class HomeController < ApplicationController
     search(@query)
     render "search_list"
   end
+
+  def random
+    
+  end
 end

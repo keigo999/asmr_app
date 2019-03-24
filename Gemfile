@@ -42,6 +42,7 @@ gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 gem "actionpack-action_caching"
 gem "actionpack-page_caching"
+gem 'rakuten_web_service'
 
 
 group :development, :test do

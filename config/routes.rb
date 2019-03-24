@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'rakuten/product'
   root "sessions#top"
   get "home/asmr_top" => "home#asmr_top"
 
@@ -22,5 +23,8 @@ Rails.application.routes.draw do
   get "home/head_spa" => "home#head_spa"
   get "home/ear_pick" => "home#ear_pick"
   get "home/typing" => "home#typing"
+
+  # 商品紹介ページ
+  get "rakuten/items" => "rakuten#items_search"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
