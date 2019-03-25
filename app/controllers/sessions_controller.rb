@@ -12,7 +12,7 @@ class SessionsController < ApplicationController
       flash[:notice] = "登録に成功しました"
       redirect_to home_asmr_top_path
     else
-      render "top"
+      render json: "top"
     end
   end
 

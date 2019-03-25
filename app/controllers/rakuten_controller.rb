@@ -23,7 +23,7 @@ class RakutenController < ApplicationController
   
   
   def search_rakuten_api(keyword)
-  @items = RakutenWebService::Ichiba::Item.search(keyword: keyword, hits: 30)
+  @items = RakutenWebService::Ichiba::Item.search(keyword: keyword, hits: 10)
   # binding.pry
   #   items.each_with_index do |item, i|
   #     # { url: item['affiliateUrl'], image: c, name: item['itemName'], price: item['itemPrice'] }
