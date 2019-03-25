@@ -94,6 +94,64 @@
   margin: 0;
 }
 
+
+// favorite.html.erb
+
+.favorite_box {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.asmr_face1 {
+  width: 200px;
+  height: 200px;
+  background-image: url("PPOMO.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.asmr_face2 {
+  width: 200px;
+  height: 200px;
+  background-image: url("hatomugi.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.asmr_face3 {
+  width: 200px;
+  height: 200px;
+  background-image: url("cham.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.asmr_face4 {
+  width: 200px;
+  height: 200px;
+  background-image: url("muki.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.asmr_face5 {
+  width: 200px;
+  height: 200px;
+  background-image: url("umino.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  border: solid 1px white;
+}
+
+.asmr_face6 {
+  width: 200px;
+  height: 200px;
+  background-image: url("jae.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+
 // sound_search.html.erb
 
 .sound_image {
