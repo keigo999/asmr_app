@@ -753,3 +753,287 @@ Processing by HomeController#favorite as HTML
 Completed 200 OK in 114ms (Views: 111.1ms | ActiveRecord: 0.0ms)
 
 
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2019-03-25 18:46:07 +0900 ===
+- Goodbye!
+Exiting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git add .
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample +)[00m
+$ git gs
+On branch sample
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   app/assets/images/PPOMO.jpg[m
+	[32mnew file:   app/assets/images/cham.jpg[m
+	[32mnew file:   app/assets/images/hatomugi.jpg[m
+	[32mnew file:   app/assets/images/jae.jpg[m
+	[32mnew file:   app/assets/images/muki.jpg[m
+	[32mnew file:   app/assets/images/umino.jpg[m
+	[32mmodified:   app/assets/stylesheets/application.scss[m
+	[32mnew file:   app/views/home/artist.html.erb[m
+	[32mnew file:   app/views/home/favorite.html.erb[m
+	[32mnew file:   app/views/reviews/edit.html.erb[m
+	[32mnew file:   app/views/reviews/new.html.erb[m
+	[32mnew file:   app/views/reviews/show.html.erb[m
+	[32mnew file:   typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *+)[00m
+$ git commit -m ""ア"ー"テ"ィ"ス"ト"一"覧"ペ"ー"ジ"作"成"
+[sample 2582626] アーティスト一覧ページ作成
+ 13 files changed, 908 insertions(+)
+ create mode 100644 app/assets/images/PPOMO.jpg
+ create mode 100644 app/assets/images/cham.jpg
+ create mode 100644 app/assets/images/hatomugi.jpg
+ create mode 100644 app/assets/images/jae.jpg
+ create mode 100644 app/assets/images/muki.jpg
+ create mode 100644 app/assets/images/umino.jpg
+ create mode 100644 app/views/home/artist.html.erb
+ create mode 100644 app/views/home/favorite.html.erb
+ create mode 100644 app/views/reviews/edit.html.erb
+ create mode 100644 app/views/reviews/new.html.erb
+ create mode 100644 app/views/reviews/show.html.erb
+ create mode 100644 typescript
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ rails s
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:90: warning: already initialized constant FileUtils::VERSION
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:92: warning: previous definition of VERSION was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1188: warning: already initialized constant FileUtils::Entry_::S_IF_DOOR
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1267: warning: previous definition of S_IF_DOOR was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1446: warning: already initialized constant FileUtils::Entry_::DIRECTORY_TERM
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1541: warning: previous definition of DIRECTORY_TERM was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1448: warning: already initialized constant FileUtils::Entry_::SYSCASE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1543: warning: previous definition of SYSCASE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1501: warning: already initialized constant FileUtils::OPT_TABLE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1596: warning: previous definition of OPT_TABLE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1555: warning: already initialized constant FileUtils::LOW_METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1650: warning: previous definition of LOW_METHODS was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1562: warning: already initialized constant FileUtils::METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1657: warning: previous definition of METHODS was here
+=> Booting Puma
+=> Rails 5.2.1 application starting in development 
+=> Run `rails server -h` for more startup options
+Warning: RakutenWebService.configuration is deprecated. Use RakutenWebService.configure.
+Puma starting in single mode...
+* Version 3.12.1 (ruby 2.5.0-p0), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://localhost:3000
+Use Ctrl-C to stop
+Started GET "/favorite" for ::1 at 2019-03-25 18:47:09 +0900
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1137ms (Views: 1124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:47:20 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 83ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for ::1 at 2019-03-25 18:47:20 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favorite" for ::1 at 2019-03-25 18:47:21 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 748ms (Views: 745.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/asmr_top" for ::1 at 2019-03-25 18:47:22 +0900
+Processing by HomeController#asmr_top as HTML
+  Rendering home/asmr_top.html.erb within layouts/application
+  Rendered shared/_form.html.erb (0.6ms)
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:9
+  Rendered shared/_header.html.erb (20.2ms)
+  Rendered home/asmr_top.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 88ms (Views: 79.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/home/..." for ::1 at 2019-03-25 18:47:22 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2019-03-25 18:47:25 +0900 ===
+- Goodbye!
+Exiting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ rails s
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:90: warning: already initialized constant FileUtils::VERSION
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:92: warning: previous definition of VERSION was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1188: warning: already initialized constant FileUtils::Entry_::S_IF_DOOR
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1267: warning: previous definition of S_IF_DOOR was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1446: warning: already initialized constant FileUtils::Entry_::DIRECTORY_TERM
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1541: warning: previous definition of DIRECTORY_TERM was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1448: warning: already initialized constant FileUtils::Entry_::SYSCASE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1543: warning: previous definition of SYSCASE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1501: warning: already initialized constant FileUtils::OPT_TABLE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1596: warning: previous definition of OPT_TABLE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1555: warning: already initialized constant FileUtils::LOW_METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1650: warning: previous definition of LOW_METHODS was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1562: warning: already initialized constant FileUtils::METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1657: warning: previous definition of METHODS was here
+=> Booting Puma
+=> Rails 5.2.1 application starting in development 
+=> Run `rails server -h` for more startup options
+Warning: RakutenWebService.configuration is deprecated. Use RakutenWebService.configure.
+Puma starting in single mode...
+* Version 3.12.1 (ruby 2.5.0-p0), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://localhost:3000
+Use Ctrl-C to stop
+Started GET "/rakuten/items" for ::1 at 2019-03-25 18:47:34 +0900
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by RakutenController#items_search as HTML
+  Rendering rakuten/items_search.html.erb within layouts/application
+  Rendered rakuten/items_search.html.erb within layouts/application (206.8ms)
+Completed 200 OK in 999ms (Views: 985.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/logout" for ::1 at 2019-03-25 18:47:39 +0900
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mFAwHIVtutLKCCMvQ4CzXoQfbPjDG+qix/9Ulrn2G/iQNvRsEBFHkuyFRbRVwDlDmx8UWwT1oKdIMonNasFYeg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-03-25 18:47:39 +0900
+Processing by SessionsController#top as HTML
+  Rendering sessions/top.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered sessions/top.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 111ms (Views: 95.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/home/asmr_top" for ::1 at 2019-03-25 18:47:41 +0900
+Processing by HomeController#asmr_top as HTML
+  Rendering home/asmr_top.html.erb within layouts/application
+  Rendered shared/_form.html.erb (0.6ms)
+  Rendered shared/_header.html.erb (0.7ms)
+  Rendered home/asmr_top.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 78ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/..." for ::1 at 2019-03-25 18:47:41 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2019-03-25 18:47:44 +0900 ===
+- Goodbye!
+Exiting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+	typescript
+Please commit your changes or stash them before you switch branches.
+Aborting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git checkout master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit gs
+On branch sample
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ 
