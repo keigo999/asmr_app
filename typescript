@@ -1036,4 +1036,71 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 [32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ gi [Kt add .
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample +)[00m
+$ git gs
+On branch sample
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   typescript[m
+
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample +)[00m
+$ git commit -m #[K""t"y"p"e"s"c"r"i"p"t" "[1P"追"加"
+[sample 6f7228d] typescript追加
+ 1 file changed, 284 insertions(+)
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+	typescript
+Please commit your changes or stash them before you switch branches.
+Aborting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git checkout master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgs
+On branch sample
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git add[K[K[K[K[K[K[Kgit log
+[?1h=[33mcommit 6f7228d62fe18b815d96dd119cfae529076fa007[m[33m ([m[1;36mHEAD -> [m[1;32msample[m[33m)[m[m
+Author: keigo999 <highbridgek5@gmail.com>[m
+Date:   Mon Mar 25 18:49:46 2019 +0900[m
+[m
+    typescript追加[m
+[m
+[33mcommit 258262638cda99d60c6dc2f199efcae10cdfc9e7[m[m
+Author: keigo999 <highbridgek5@gmail.com>[m
+Date:   Mon Mar 25 18:46:53 2019 +0900[m
+[m
+    アーティスト一覧ページ作成[m
+[m
+[33mcommit f60b7bfbaf246611867ed9f9020196e60aa488e3[m[m
+Author: keigo999 <highbridgek5@gmail.com>[m
+Date:   Mon Mar 25 09:33:47 2019 +0900[m
+[m
+    モデル作成前コミット[m
+[m
+[33mcommit ec8cf13b2356d6e1dcbab8a5fbd64499292d33d6[m[m
+Author: keigo999 <highbridgek5@gmail.com>[m
+Date:   Sun Mar 24 17:19:59 2019 +0900[m
+[m
+    楽天商品ページ実装[m
+[m
+[33mcommit 4cd4baf5caf65ebdedaf368d322e4e1d37639f7f[m[33m ([m[1;31morigin/master[m[33m)[m[m
+:[K[K[?1l>[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ q[Kgit gs
+On branch sample
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
 $ 
