@@ -26,5 +26,11 @@ Rails.application.routes.draw do
 
   # 商品紹介ページ
   get "rakuten/items" => "rakuten#items_search"
+
+  # 運営おすすめ商品
+  get "/eye_mask" => "rakuten#eye"
+  get "/ear" => "rakuten#ear"
+  get "/aroma" => "rakuten#aroma"
+  get "/query" =>"rakuten#search_rakuten"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

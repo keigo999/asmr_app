@@ -1,0 +1,1868 @@
+Script started on Mon Mar 25 17:56:12 2019
+[?1034h[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample)[00m
+$ rasil[K[K[Kils s
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:90: warning: already initialized constant FileUtils::VERSION
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:92: warning: previous definition of VERSION was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1188: warning: already initialized constant FileUtils::Entry_::S_IF_DOOR
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1267: warning: previous definition of S_IF_DOOR was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1446: warning: already initialized constant FileUtils::Entry_::DIRECTORY_TERM
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1541: warning: previous definition of DIRECTORY_TERM was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1448: warning: already initialized constant FileUtils::Entry_::SYSCASE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1543: warning: previous definition of SYSCASE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1501: warning: already initialized constant FileUtils::OPT_TABLE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1596: warning: previous definition of OPT_TABLE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1555: warning: already initialized constant FileUtils::LOW_METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1650: warning: previous definition of LOW_METHODS was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1562: warning: already initialized constant FileUtils::METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1657: warning: previous definition of METHODS was here
+=> Booting Puma
+=> Rails 5.2.1 application starting in development 
+=> Run `rails server -h` for more startup options
+Warning: RakutenWebService.configuration is deprecated. Use RakutenWebService.configure.
+Puma starting in single mode...
+* Version 3.12.1 (ruby 2.5.0-p0), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://localhost:3000
+Use Ctrl-C to stop
+Started GET "/home/..." for ::1 at 2019-03-25 17:58:32 +0900
+Started GET "/home/asmr_top" for ::1 at 2019-03-25 17:58:32 +0900
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+  ↳ vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Processing by HomeController#asmr_top as HTML
+  Rendering home/asmr_top.html.erb within layouts/application
+  Rendered shared/_form.html.erb (0.6ms)
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:9
+  Rendered shared/_header.html.erb (22.8ms)
+  Rendered home/asmr_top.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 787ms (Views: 779.7ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/home/..." for ::1 at 2019-03-25 17:58:35 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favorite" for ::1 at 2019-03-25 17:58:38 +0900
+  
+AbstractController::ActionNotFound (The action 'favorite' could not be found for HomeController):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/abstract_controller/base.rb:129:in `process'
+vendor/bundle/ruby/2.5.0/gems/actionview-5.2.1/lib/action_view/rendering.rb:32:in `process'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_controller/metal.rb:191:in `dispatch'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_controller/metal.rb:252:in `dispatch'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/routing/route_set.rb:34:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/journey/router.rb:35:in `each'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/journey/router.rb:35:in `serve'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/routing/route_set.rb:840:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/tempfile_reaper.rb:15:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/etag.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/head.rb:12:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/session/abstract/id.rb:232:in `context'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/session/abstract/id.rb:226:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/migration.rb:559:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/..." for ::1 at 2019-03-25 17:58:38 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/..." for ::1 at 2019-03-25 17:58:39 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/asmr_top" for ::1 at 2019-03-25 17:58:39 +0900
+Processing by HomeController#asmr_top as HTML
+  Rendering home/asmr_top.html.erb within layouts/application
+  Rendered shared/_form.html.erb (0.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:9
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered home/asmr_top.html.erb within layouts/application (61.2ms)
+Completed 200 OK in 766ms (Views: 760.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home/..." for ::1 at 2019-03-25 17:58:40 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/rakuten/items" for ::1 at 2019-03-25 17:58:41 +0900
+Processing by RakutenController#items_search as HTML
+  Rendering rakuten/items_search.html.erb within layouts/application
+  Rendered rakuten/items_search.html.erb within layouts/application (152.5ms)
+Completed 200 OK in 221ms (Views: 215.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rakuten/..." for ::1 at 2019-03-25 17:58:42 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/rakuten/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/..." for ::1 at 2019-03-25 17:58:43 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/sound_search" for ::1 at 2019-03-25 17:58:45 +0900
+Processing by HomeController#sound_search as HTML
+  Rendering home/sound_search.html.erb within layouts/application
+  Rendered home/sound_search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 64ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/..." for ::1 at 2019-03-25 17:58:45 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/..." for ::1 at 2019-03-25 17:59:01 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2019-03-25 18:01:51 +0900 ===
+- Goodbye!
+Exiting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample)[00m
+$ git gs
+On branch sample
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mapp/views/home/artist.html.erb[m
+	[31mapp/views/reviews/[m
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample)[00m
+$ rails s
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:90: warning: already initialized constant FileUtils::VERSION
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:92: warning: previous definition of VERSION was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1188: warning: already initialized constant FileUtils::Entry_::S_IF_DOOR
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1267: warning: previous definition of S_IF_DOOR was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1446: warning: already initialized constant FileUtils::Entry_::DIRECTORY_TERM
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1541: warning: previous definition of DIRECTORY_TERM was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1448: warning: already initialized constant FileUtils::Entry_::SYSCASE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1543: warning: previous definition of SYSCASE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1501: warning: already initialized constant FileUtils::OPT_TABLE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1596: warning: previous definition of OPT_TABLE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1555: warning: already initialized constant FileUtils::LOW_METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1650: warning: previous definition of LOW_METHODS was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1562: warning: already initialized constant FileUtils::METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1657: warning: previous definition of METHODS was here
+=> Booting Puma
+=> Rails 5.2.1 application starting in development 
+=> Run `rails server -h` for more startup options
+Warning: RakutenWebService.configuration is deprecated. Use RakutenWebService.configure.
+Puma starting in single mode...
+* Version 3.12.1 (ruby 2.5.0-p0), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://localhost:3000
+Use Ctrl-C to stop
+Started GET "/favorite" for ::1 at 2019-03-25 18:23:55 +0900
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 4366ms (Views: 4353.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for ::1 at 2019-03-25 18:24:01 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favorite" for ::1 at 2019-03-25 18:24:01 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 571ms (Views: 567.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:27:41 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2768ms (Views: 2765.4ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/ppomo.jpg"):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/logger_silence.rb:21:in `silence'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/logger_silence.rb:21:in `silence'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:11:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favorite" for ::1 at 2019-03-25 18:28:22 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 219ms (Views: 216.2ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/ppomo.jpg"):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/logger_silence.rb:21:in `silence'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/logger_silence.rb:21:in `silence'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:11:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favorite" for ::1 at 2019-03-25 18:29:00 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2850ms (Views: 2847.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:31:00 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 74ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:31:27 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 111ms (Views: 107.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:31:34 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 80ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:31:58 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:32:25 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 83ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:34:11 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 63ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:34:20 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 67ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:34:22 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 88ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:34:49 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 63ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:34:57 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:35:21 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 63ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:35:43 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 70ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:36:03 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 60ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:36:12 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:36:26 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 63ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:37:07 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 78ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:37:18 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 68ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:38:43 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 55ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:42:04 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3212ms (Views: 3208.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:42:22 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 93ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:42:38 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 73ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:43:10 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 103ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:43:30 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2920ms (Views: 2917.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:44:02 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2850ms (Views: 2846.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:45:18 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 72ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:45:27 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 89ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:45:41 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 114ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2019-03-25 18:46:07 +0900 ===
+- Goodbye!
+Exiting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git add .
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample +)[00m
+$ git gs
+On branch sample
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   app/assets/images/PPOMO.jpg[m
+	[32mnew file:   app/assets/images/cham.jpg[m
+	[32mnew file:   app/assets/images/hatomugi.jpg[m
+	[32mnew file:   app/assets/images/jae.jpg[m
+	[32mnew file:   app/assets/images/muki.jpg[m
+	[32mnew file:   app/assets/images/umino.jpg[m
+	[32mmodified:   app/assets/stylesheets/application.scss[m
+	[32mnew file:   app/views/home/artist.html.erb[m
+	[32mnew file:   app/views/home/favorite.html.erb[m
+	[32mnew file:   app/views/reviews/edit.html.erb[m
+	[32mnew file:   app/views/reviews/new.html.erb[m
+	[32mnew file:   app/views/reviews/show.html.erb[m
+	[32mnew file:   typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *+)[00m
+$ git commit -m ""ア"ー"テ"ィ"ス"ト"一"覧"ペ"ー"ジ"作"成"
+[sample 2582626] アーティスト一覧ページ作成
+ 13 files changed, 908 insertions(+)
+ create mode 100644 app/assets/images/PPOMO.jpg
+ create mode 100644 app/assets/images/cham.jpg
+ create mode 100644 app/assets/images/hatomugi.jpg
+ create mode 100644 app/assets/images/jae.jpg
+ create mode 100644 app/assets/images/muki.jpg
+ create mode 100644 app/assets/images/umino.jpg
+ create mode 100644 app/views/home/artist.html.erb
+ create mode 100644 app/views/home/favorite.html.erb
+ create mode 100644 app/views/reviews/edit.html.erb
+ create mode 100644 app/views/reviews/new.html.erb
+ create mode 100644 app/views/reviews/show.html.erb
+ create mode 100644 typescript
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ rails s
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:90: warning: already initialized constant FileUtils::VERSION
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:92: warning: previous definition of VERSION was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1188: warning: already initialized constant FileUtils::Entry_::S_IF_DOOR
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1267: warning: previous definition of S_IF_DOOR was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1446: warning: already initialized constant FileUtils::Entry_::DIRECTORY_TERM
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1541: warning: previous definition of DIRECTORY_TERM was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1448: warning: already initialized constant FileUtils::Entry_::SYSCASE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1543: warning: previous definition of SYSCASE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1501: warning: already initialized constant FileUtils::OPT_TABLE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1596: warning: previous definition of OPT_TABLE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1555: warning: already initialized constant FileUtils::LOW_METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1650: warning: previous definition of LOW_METHODS was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1562: warning: already initialized constant FileUtils::METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1657: warning: previous definition of METHODS was here
+=> Booting Puma
+=> Rails 5.2.1 application starting in development 
+=> Run `rails server -h` for more startup options
+Warning: RakutenWebService.configuration is deprecated. Use RakutenWebService.configure.
+Puma starting in single mode...
+* Version 3.12.1 (ruby 2.5.0-p0), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://localhost:3000
+Use Ctrl-C to stop
+Started GET "/favorite" for ::1 at 2019-03-25 18:47:09 +0900
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1137ms (Views: 1124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 18:47:20 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 83ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for ::1 at 2019-03-25 18:47:20 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favorite" for ::1 at 2019-03-25 18:47:21 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 748ms (Views: 745.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/asmr_top" for ::1 at 2019-03-25 18:47:22 +0900
+Processing by HomeController#asmr_top as HTML
+  Rendering home/asmr_top.html.erb within layouts/application
+  Rendered shared/_form.html.erb (0.6ms)
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:9
+  Rendered shared/_header.html.erb (20.2ms)
+  Rendered home/asmr_top.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 88ms (Views: 79.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/home/..." for ::1 at 2019-03-25 18:47:22 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2019-03-25 18:47:25 +0900 ===
+- Goodbye!
+Exiting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ rails s
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:90: warning: already initialized constant FileUtils::VERSION
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:92: warning: previous definition of VERSION was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1188: warning: already initialized constant FileUtils::Entry_::S_IF_DOOR
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1267: warning: previous definition of S_IF_DOOR was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1446: warning: already initialized constant FileUtils::Entry_::DIRECTORY_TERM
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1541: warning: previous definition of DIRECTORY_TERM was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1448: warning: already initialized constant FileUtils::Entry_::SYSCASE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1543: warning: previous definition of SYSCASE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1501: warning: already initialized constant FileUtils::OPT_TABLE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1596: warning: previous definition of OPT_TABLE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1555: warning: already initialized constant FileUtils::LOW_METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1650: warning: previous definition of LOW_METHODS was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1562: warning: already initialized constant FileUtils::METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1657: warning: previous definition of METHODS was here
+=> Booting Puma
+=> Rails 5.2.1 application starting in development 
+=> Run `rails server -h` for more startup options
+Warning: RakutenWebService.configuration is deprecated. Use RakutenWebService.configure.
+Puma starting in single mode...
+* Version 3.12.1 (ruby 2.5.0-p0), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://localhost:3000
+Use Ctrl-C to stop
+Started GET "/rakuten/items" for ::1 at 2019-03-25 18:47:34 +0900
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by RakutenController#items_search as HTML
+  Rendering rakuten/items_search.html.erb within layouts/application
+  Rendered rakuten/items_search.html.erb within layouts/application (206.8ms)
+Completed 200 OK in 999ms (Views: 985.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/logout" for ::1 at 2019-03-25 18:47:39 +0900
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mFAwHIVtutLKCCMvQ4CzXoQfbPjDG+qix/9Ulrn2G/iQNvRsEBFHkuyFRbRVwDlDmx8UWwT1oKdIMonNasFYeg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-03-25 18:47:39 +0900
+Processing by SessionsController#top as HTML
+  Rendering sessions/top.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered sessions/top.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 111ms (Views: 95.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/home/asmr_top" for ::1 at 2019-03-25 18:47:41 +0900
+Processing by HomeController#asmr_top as HTML
+  Rendering home/asmr_top.html.erb within layouts/application
+  Rendered shared/_form.html.erb (0.6ms)
+  Rendered shared/_header.html.erb (0.7ms)
+  Rendered home/asmr_top.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 78ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/..." for ::1 at 2019-03-25 18:47:41 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2019-03-25 18:47:44 +0900 ===
+- Goodbye!
+Exiting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+	typescript
+Please commit your changes or stash them before you switch branches.
+Aborting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git checkout master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit gs
+On branch sample
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ gi [Kt add .
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample +)[00m
+$ git gs
+On branch sample
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   typescript[m
+
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample +)[00m
+$ git commit -m #[K""t"y"p"e"s"c"r"i"p"t" "[1P"追"加"
+[sample 6f7228d] typescript追加
+ 1 file changed, 284 insertions(+)
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+	typescript
+Please commit your changes or stash them before you switch branches.
+Aborting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git checkout master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgs
+On branch sample
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git add[K[K[K[K[K[K[Kgit log
+[?1h=[33mcommit 6f7228d62fe18b815d96dd119cfae529076fa007[m[33m ([m[1;36mHEAD -> [m[1;32msample[m[33m)[m[m
+Author: keigo999 <highbridgek5@gmail.com>[m
+Date:   Mon Mar 25 18:49:46 2019 +0900[m
+[m
+    typescript追加[m
+[m
+[33mcommit 258262638cda99d60c6dc2f199efcae10cdfc9e7[m[m
+Author: keigo999 <highbridgek5@gmail.com>[m
+Date:   Mon Mar 25 18:46:53 2019 +0900[m
+[m
+    アーティスト一覧ページ作成[m
+[m
+[33mcommit f60b7bfbaf246611867ed9f9020196e60aa488e3[m[m
+Author: keigo999 <highbridgek5@gmail.com>[m
+Date:   Mon Mar 25 09:33:47 2019 +0900[m
+[m
+    モデル作成前コミット[m
+[m
+[33mcommit ec8cf13b2356d6e1dcbab8a5fbd64499292d33d6[m[m
+Author: keigo999 <highbridgek5@gmail.com>[m
+Date:   Sun Mar 24 17:19:59 2019 +0900[m
+[m
+    楽天商品ページ実装[m
+[m
+[33mcommit 4cd4baf5caf65ebdedaf368d322e4e1d37639f7f[m[33m ([m[1;31morigin/master[m[33m)[m[m
+:[K[K[?1l>[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ q[Kgit gs
+On branch sample
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git s[Kadd .
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample +)[00m
+$ git gs
+On branch sample
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   typescript[m
+
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample +)[00m
+$ git commit -m ""t"y"o"e"s"c"r"i"p"y"つ"い"k"s"[1P"[1P"[2P"[2P"追"加"
+[sample 3b38bdb] tyoescripy追加
+ 1 file changed, 67 insertions(+)
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git cg[Kheckout mastre[K[Ker
+error: Your local changes to the following files would be overwritten by checkout:
+	typescript
+Please commit your changes or stash them before you switch branches.
+Aborting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git gs
+On branch sample
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ rails s
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:90: warning: already initialized constant FileUtils::VERSION
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:92: warning: previous definition of VERSION was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1188: warning: already initialized constant FileUtils::Entry_::S_IF_DOOR
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1267: warning: previous definition of S_IF_DOOR was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1446: warning: already initialized constant FileUtils::Entry_::DIRECTORY_TERM
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1541: warning: previous definition of DIRECTORY_TERM was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1448: warning: already initialized constant FileUtils::Entry_::SYSCASE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1543: warning: previous definition of SYSCASE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1501: warning: already initialized constant FileUtils::OPT_TABLE
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1596: warning: previous definition of OPT_TABLE was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1555: warning: already initialized constant FileUtils::LOW_METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1650: warning: previous definition of LOW_METHODS was here
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1562: warning: already initialized constant FileUtils::METHODS
+/Users/takahashikeigo/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1657: warning: previous definition of METHODS was here
+=> Booting Puma
+=> Rails 5.2.1 application starting in development 
+=> Run `rails server -h` for more startup options
+Warning: RakutenWebService.configuration is deprecated. Use RakutenWebService.configure.
+Puma starting in single mode...
+* Version 3.12.1 (ruby 2.5.0-p0), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://localhost:3000
+Use Ctrl-C to stop
+Started GET "/home/asmr_top" for ::1 at 2019-03-25 18:59:58 +0900
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#asmr_top as HTML
+  Rendering home/asmr_top.html.erb within layouts/application
+  Rendered shared/_form.html.erb (0.8ms)
+  Rendered shared/_header.html.erb (0.5ms)
+  Rendered home/asmr_top.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 790ms (Views: 774.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/..." for ::1 at 2019-03-25 19:00:00 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/sessions/top" for ::1 at 2019-03-25 19:00:00 +0900
+Processing by SessionsController#top as HTML
+  Rendering sessions/top.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.3ms)
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered sessions/top.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 146ms (Views: 123.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/sessions/..." for ::1 at 2019-03-25 19:00:01 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/sessions/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/sessions/login" for ::1 at 2019-03-25 19:00:09 +0900
+Processing by SessionsController#login as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"59u0NtNW22Elh6TcqeZj2uSmkk0zZ102SN7tpW1+JpYFgM4+YnOzY1MzWy2eqUSUzGizdOlfatvj9h92R5V7Qw==", "name"=>"たかはし", "password"=>"[FILTERED]", "commit"=>"送信"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = ? AND "users"."password" = ? LIMIT ?[0m  [["name", "たかはし"], ["password", "123456"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:20
+Redirected to http://localhost:3000/home/asmr_top
+Completed 200 OK in 10ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/home/asmr_top" for ::1 at 2019-03-25 19:00:09 +0900
+Processing by HomeController#asmr_top as HTML
+  Rendering home/asmr_top.html.erb within layouts/application
+  Rendered shared/_form.html.erb (0.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:9
+  Rendered shared/_header.html.erb (2.9ms)
+  Rendered home/asmr_top.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 75ms (Views: 68.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home/..." for ::1 at 2019-03-25 19:00:09 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/rakuten/items" for ::1 at 2019-03-25 19:00:11 +0900
+Processing by RakutenController#items_search as HTML
+  Rendering rakuten/items_search.html.erb within layouts/application
+  Rendered rakuten/items_search.html.erb within layouts/application (162.4ms)
+Completed 200 OK in 243ms (Views: 235.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rakuten/..." for ::1 at 2019-03-25 19:00:11 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/rakuten/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/..." for ::1 at 2019-03-25 19:00:15 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favorite" for ::1 at 2019-03-25 19:00:17 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 59ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for ::1 at 2019-03-25 19:00:17 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/..." for ::1 at 2019-03-25 19:00:21 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/sound_search" for ::1 at 2019-03-25 19:00:24 +0900
+Processing by HomeController#sound_search as HTML
+  Rendering home/sound_search.html.erb within layouts/application
+  Rendered home/sound_search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 72ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/..." for ::1 at 2019-03-25 19:00:24 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/sound_search" for ::1 at 2019-03-25 19:01:29 +0900
+Processing by HomeController#sound_search as HTML
+  Rendering home/sound_search.html.erb within layouts/application
+  Rendered home/sound_search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3617ms (Views: 3613.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/sound_search" for ::1 at 2019-03-25 19:02:34 +0900
+Processing by HomeController#sound_search as HTML
+  Rendering home/sound_search.html.erb within layouts/application
+  Rendered home/sound_search.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 72ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/sound_search" for ::1 at 2019-03-25 19:02:47 +0900
+Processing by HomeController#sound_search as HTML
+  Rendering home/sound_search.html.erb within layouts/application
+  Rendered home/sound_search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 68ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/head_spa" for ::1 at 2019-03-25 19:03:06 +0900
+Processing by HomeController#head_spa as HTML
+Sending HTTP get https://www.googleapis.com/youtube/v3/search?key=AIzaSyASrJQl-AjvuIQ4nS9w9fbXOie9M0Lc4nM&maxResults=2&part=id%2Csnippet&q=asmr%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%97%E3%83%BC&type=video
+200
+#<HTTP::Message:0x00007fd6c404a4a0 @http_header=#<HTTP::Message::Headers:0x00007fd6c404a478 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3feb62025674 URI:https://www.googleapis.com/youtube/v3/search?key=AIzaSyASrJQl-AjvuIQ4nS9w9fbXOie9M0Lc4nM&maxResults=2&part=id%2Csnippet&q=asmr%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%97%E3%83%BC&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Expires", "Mon, 25 Mar 2019 10:03:08 GMT"], ["Date", "Mon, 25 Mar 2019 10:03:08 GMT"], ["Cache-Control", "private, max-age=120, must-revalidate, no-transform"], ["ETag", "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/pybCVz2lnrJjYxCTmyGjuV74nXk\""], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Content-Type", "application/json; charset=UTF-8"], ["Content-Encoding", "gzip"], ["X-Content-Type-Options", "nosniff"], ["X-Frame-Options", "SAMEORIGIN"], ["X-XSS-Protection", "1; mode=block"], ["Server", "GSE"], ["Alt-Svc", "quic=\":443\"; ma=2592000; v=\"46,44,43,39\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=*.googleapis.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=Google Internet Authority G3,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fd6c4028378>, not_before=2019-03-01 09:38:11 UTC, not_after=2019-05-24 09:25:00 UTC>, @http_body=#<HTTP::Message::Body:0x00007fd6c404a400 @body="{\n \"kind\": \"youtube#searchListResponse\",\n \"etag\": \"\\\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/pybCVz2lnrJjYxCTmyGjuV74nXk\\\"\",\n \"nextPageToken\": \"CAIQAA\",\n \"regionCode\": \"JP\",\n \"pageInfo\": {\n  \"totalResults\": 21058,\n  \"resultsPerPage\": 2\n },\n \"items\": [\n  {\n   \"kind\": \"youtube#searchResult\",\n   \"etag\": \"\\\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/hPjnc_w1yUs9-FLyzeunbuNXRMA\\\"\",\n   \"id\": {\n    \"kind\": \"youtube#video\",\n    \"videoId\": \"RCT8hGGnTjw\"\n   },\n   \"snippet\": {\n    \"publishedAt\": \"2016-01-15T10:25:17.000Z\",\n    \"channelId\": \"UCBP83PPp_c92rmP3A6R7nZQ\",\n    \"title\": \"[音フェチ]シャンプー/Shampoo&amp;Water Sounds[ASMR]\",\n    \"description\": \"\\\"洗髪の時に、どーしても水の音が欲しいです\\\"など多くのリクエストいただきました＼(^o^)／ おすすめ ロングヘアーをシャンプー ↳https://youtu.be/Y...\",\n    \"thumbnails\": {\n     \"default\": {\n      \"url\": \"https://i.ytimg.com/vi/RCT8hGGnTjw/default.jpg\",\n      \"width\": 120,\n      \"height\": 90\n     },\n     \"medium\": {\n      \"url\": \"https://i.ytimg.com/vi/RCT8hGGnTjw/mqdefault.jpg\",\n      \"width\": 320,\n      \"height\": 180\n     },\n     \"high\": {\n      \"url\": \"https://i.ytimg.com/vi/RCT8hGGnTjw/hqdefault.jpg\",\n      \"width\": 480,\n      \"height\": 360\n     }\n    },\n    \"channelTitle\": \"YAACHAMA J-ASMR\",\n    \"liveBroadcastContent\": \"none\"\n   }\n  },\n  {\n   \"kind\": \"youtube#searchResult\",\n   \"etag\": \"\\\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/3iUsTPJOYW0vm2U_9dpX1cezhyo\\\"\",\n   \"id\": {\n    \"kind\": \"youtube#video\",\n    \"videoId\": \"QKhybUVP9uI\"\n   },\n   \"snippet\": {\n    \"publishedAt\": \"2017-10-10T18:27:16.000Z\",\n    \"channelId\": \"UCAnhZ63EvTRJVvEM5uB7FDA\",\n    \"title\": \"#1【ASMR】 Gentle Shampoo And  Massage リラックスシャンプー\",\n    \"description\": \"美容師による美容院でのシャンプーasmr動画。 音フェチなら誰もが聞いた事のあるシャンプー動画。 今回はウィッグではなく人の頭でシャンプー...\",\n    \"thumbnails\": {\n     \"default\": {\n      \"url\": \"https://i.ytimg.com/vi/QKhybUVP9uI/default.jpg\",\n      \"width\": 120,\n      \"height\": 90\n     },\n     \"medium\": {\n      \"url\": \"https://i.ytimg.com/vi/QKhybUVP9uI/mqdefault.jpg\",\n      \"width\": 320,\n      \"height\": 180\n     },\n     \"high\": {\n      \"url\": \"https://i.ytimg.com/vi/QKhybUVP9uI/hqdefault.jpg\",\n      \"width\": 480,\n      \"height\": 360\n     }\n    },\n    \"channelTitle\": \"ASMR YUMA CHANNEL\",\n    \"liveBroadcastContent\": \"none\"\n   }\n  }\n ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fd6c403abb8
+ @etag="\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/pybCVz2lnrJjYxCTmyGjuV74nXk\"",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fd6bdccbe38
+    @etag="\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/hPjnc_w1yUs9-FLyzeunbuNXRMA\"",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6bdccb410
+      @kind="youtube#video",
+      @video_id="RCT8hGGnTjw">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6bdcc9c78
+      @channel_id="UCBP83PPp_c92rmP3A6R7nZQ",
+      @channel_title="YAACHAMA J-ASMR",
+      @description=
+       "\"洗髪の時に、どーしても水の音が欲しいです\"など多くのリクエストいただきました＼(^o^)／ おすすめ ロングヘアーをシャンプー ↳https://youtu.be/Y...",
+      @live_broadcast_content="none",
+      @published_at=Fri, 15 Jan 2016 10:25:17 +0000,
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6bdcdbd60
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6bdcdb590
+          @height=90,
+          @url="https://i.ytimg.com/vi/RCT8hGGnTjw/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6bdcda3c0
+          @height=360,
+          @url="https://i.ytimg.com/vi/RCT8hGGnTjw/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6bdcd9218
+          @height=180,
+          @url="https://i.ytimg.com/vi/RCT8hGGnTjw/mqdefault.jpg",
+          @width=320>>,
+      @title="[音フェチ]シャンプー/Shampoo&amp;Water Sounds[ASMR]">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6c4033f48
+    @etag="\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/3iUsTPJOYW0vm2U_9dpX1cezhyo\"",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6c4033818
+      @kind="youtube#video",
+      @video_id="QKhybUVP9uI">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6c4032918
+      @channel_id="UCAnhZ63EvTRJVvEM5uB7FDA",
+      @channel_title="ASMR YUMA CHANNEL",
+      @description=
+       "美容師による美容院でのシャンプーasmr動画。 音フェチなら誰もが聞いた事のあるシャンプー動画。 今回はウィッグではなく人の頭でシャンプー...",
+      @live_broadcast_content="none",
+      @published_at=Tue, 10 Oct 2017 18:27:16 +0000,
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6c4031400
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6c4030e60
+          @height=90,
+          @url="https://i.ytimg.com/vi/QKhybUVP9uI/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6c4030140
+          @height=360,
+          @url="https://i.ytimg.com/vi/QKhybUVP9uI/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6c4023350
+          @height=180,
+          @url="https://i.ytimg.com/vi/QKhybUVP9uI/mqdefault.jpg",
+          @width=320>>,
+      @title="#1【ASMR】 Gentle Shampoo And  Massage リラックスシャンプー">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAIQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fd6c4021c58
+   @results_per_page=2,
+   @total_results=21058>,
+ @region_code="JP">
+
+  Rendering home/search_list.html.erb within layouts/application
+  Rendered home/search_list.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 603ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/head_spa" for ::1 at 2019-03-25 19:03:36 +0900
+Processing by HomeController#head_spa as HTML
+Sending HTTP get https://www.googleapis.com/youtube/v3/search?key=AIzaSyASrJQl-AjvuIQ4nS9w9fbXOie9M0Lc4nM&maxResults=2&part=id%2Csnippet&q=asmr%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%97%E3%83%BC&type=video
+200
+#<HTTP::Message:0x00007fd6c3383de8 @http_header=#<HTTP::Message::Headers:0x00007fd6c3383dc0 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3feb619ba30c URI:https://www.googleapis.com/youtube/v3/search?key=AIzaSyASrJQl-AjvuIQ4nS9w9fbXOie9M0Lc4nM&maxResults=2&part=id%2Csnippet&q=asmr%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%97%E3%83%BC&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Expires", "Mon, 25 Mar 2019 10:03:38 GMT"], ["Date", "Mon, 25 Mar 2019 10:03:38 GMT"], ["Cache-Control", "private, max-age=120, must-revalidate, no-transform"], ["ETag", "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/pPD1nmyiXzFaezbmcue1SiO4GX4\""], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Content-Type", "application/json; charset=UTF-8"], ["Content-Encoding", "gzip"], ["X-Content-Type-Options", "nosniff"], ["X-Frame-Options", "SAMEORIGIN"], ["X-XSS-Protection", "1; mode=block"], ["Server", "GSE"], ["Alt-Svc", "quic=\":443\"; ma=2592000; v=\"46,44,43,39\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=*.googleapis.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=Google Internet Authority G3,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fd6c335a998>, not_before=2019-03-01 09:38:11 UTC, not_after=2019-05-24 09:25:00 UTC>, @http_body=#<HTTP::Message::Body:0x00007fd6c3383d48 @body="{\n \"kind\": \"youtube#searchListResponse\",\n \"etag\": \"\\\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/pPD1nmyiXzFaezbmcue1SiO4GX4\\\"\",\n \"nextPageToken\": \"CAIQAA\",\n \"regionCode\": \"JP\",\n \"pageInfo\": {\n  \"totalResults\": 21056,\n  \"resultsPerPage\": 2\n },\n \"items\": [\n  {\n   \"kind\": \"youtube#searchResult\",\n   \"etag\": \"\\\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/hPjnc_w1yUs9-FLyzeunbuNXRMA\\\"\",\n   \"id\": {\n    \"kind\": \"youtube#video\",\n    \"videoId\": \"RCT8hGGnTjw\"\n   },\n   \"snippet\": {\n    \"publishedAt\": \"2016-01-15T10:25:17.000Z\",\n    \"channelId\": \"UCBP83PPp_c92rmP3A6R7nZQ\",\n    \"title\": \"[音フェチ]シャンプー/Shampoo&amp;Water Sounds[ASMR]\",\n    \"description\": \"\\\"洗髪の時に、どーしても水の音が欲しいです\\\"など多くのリクエストいただきました＼(^o^)／ おすすめ ロングヘアーをシャンプー ↳https://youtu.be/Y...\",\n    \"thumbnails\": {\n     \"default\": {\n      \"url\": \"https://i.ytimg.com/vi/RCT8hGGnTjw/default.jpg\",\n      \"width\": 120,\n      \"height\": 90\n     },\n     \"medium\": {\n      \"url\": \"https://i.ytimg.com/vi/RCT8hGGnTjw/mqdefault.jpg\",\n      \"width\": 320,\n      \"height\": 180\n     },\n     \"high\": {\n      \"url\": \"https://i.ytimg.com/vi/RCT8hGGnTjw/hqdefault.jpg\",\n      \"width\": 480,\n      \"height\": 360\n     }\n    },\n    \"channelTitle\": \"YAACHAMA J-ASMR\",\n    \"liveBroadcastContent\": \"none\"\n   }\n  },\n  {\n   \"kind\": \"youtube#searchResult\",\n   \"etag\": \"\\\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/3iUsTPJOYW0vm2U_9dpX1cezhyo\\\"\",\n   \"id\": {\n    \"kind\": \"youtube#video\",\n    \"videoId\": \"QKhybUVP9uI\"\n   },\n   \"snippet\": {\n    \"publishedAt\": \"2017-10-10T18:27:16.000Z\",\n    \"channelId\": \"UCAnhZ63EvTRJVvEM5uB7FDA\",\n    \"title\": \"#1【ASMR】 Gentle Shampoo And  Massage リラックスシャンプー\",\n    \"description\": \"美容師による美容院でのシャンプーasmr動画。 音フェチなら誰もが聞いた事のあるシャンプー動画。 今回はウィッグではなく人の頭でシャンプー...\",\n    \"thumbnails\": {\n     \"default\": {\n      \"url\": \"https://i.ytimg.com/vi/QKhybUVP9uI/default.jpg\",\n      \"width\": 120,\n      \"height\": 90\n     },\n     \"medium\": {\n      \"url\": \"https://i.ytimg.com/vi/QKhybUVP9uI/mqdefault.jpg\",\n      \"width\": 320,\n      \"height\": 180\n     },\n     \"high\": {\n      \"url\": \"https://i.ytimg.com/vi/QKhybUVP9uI/hqdefault.jpg\",\n      \"width\": 480,\n      \"height\": 360\n     }\n    },\n    \"channelTitle\": \"ASMR YUMA CHANNEL\",\n    \"liveBroadcastContent\": \"none\"\n   }\n  }\n ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fd6c33592a0
+ @etag="\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/pPD1nmyiXzFaezbmcue1SiO4GX4\"",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fd6c3364f88
+    @etag="\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/hPjnc_w1yUs9-FLyzeunbuNXRMA\"",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6c3357cc0
+      @kind="youtube#video",
+      @video_id="RCT8hGGnTjw">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6c3356dc0
+      @channel_id="UCBP83PPp_c92rmP3A6R7nZQ",
+      @channel_title="YAACHAMA J-ASMR",
+      @description=
+       "\"洗髪の時に、どーしても水の音が欲しいです\"など多くのリクエストいただきました＼(^o^)／ おすすめ ロングヘアーをシャンプー ↳https://youtu.be/Y...",
+      @live_broadcast_content="none",
+      @published_at=Fri, 15 Jan 2016 10:25:17 +0000,
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6c33559e8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6c3355380
+          @height=90,
+          @url="https://i.ytimg.com/vi/RCT8hGGnTjw/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6c33547c8
+          @height=360,
+          @url="https://i.ytimg.com/vi/RCT8hGGnTjw/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6c3363a48
+          @height=180,
+          @url="https://i.ytimg.com/vi/RCT8hGGnTjw/mqdefault.jpg",
+          @width=320>>,
+      @title="[音フェチ]シャンプー/Shampoo&amp;Water Sounds[ASMR]">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6c3362cb0
+    @etag="\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/3iUsTPJOYW0vm2U_9dpX1cezhyo\"",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6c3362580
+      @kind="youtube#video",
+      @video_id="QKhybUVP9uI">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6c33615e0
+      @channel_id="UCAnhZ63EvTRJVvEM5uB7FDA",
+      @channel_title="ASMR YUMA CHANNEL",
+      @description=
+       "美容師による美容院でのシャンプーasmr動画。 音フェチなら誰もが聞いた事のあるシャンプー動画。 今回はウィッグではなく人の頭でシャンプー...",
+      @live_broadcast_content="none",
+      @published_at=Tue, 10 Oct 2017 18:27:16 +0000,
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6bdc33a98
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6bdc33548
+          @height=90,
+          @url="https://i.ytimg.com/vi/QKhybUVP9uI/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6bdc32a58
+          @height=360,
+          @url="https://i.ytimg.com/vi/QKhybUVP9uI/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6bdc31d60
+          @height=180,
+          @url="https://i.ytimg.com/vi/QKhybUVP9uI/mqdefault.jpg",
+          @width=320>>,
+      @title="#1【ASMR】 Gentle Shampoo And  Massage リラックスシャンプー">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAIQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fd6bdc30ac8
+   @results_per_page=2,
+   @total_results=21056>,
+ @region_code="JP">
+
+  Rendering home/search_list.html.erb within layouts/application
+  Rendered home/search_list.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 3366ms (Views: 2837.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/head_spa" for ::1 at 2019-03-25 19:03:42 +0900
+Processing by HomeController#head_spa as HTML
+Sending HTTP get https://www.googleapis.com/youtube/v3/search?key=AIzaSyASrJQl-AjvuIQ4nS9w9fbXOie9M0Lc4nM&maxResults=2&part=id%2Csnippet&q=asmr%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%97%E3%83%BC&type=video
+200
+#<HTTP::Message:0x00007fd6c0f7ebf0 @http_header=#<HTTP::Message::Headers:0x00007fd6c0f7ebc8 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3feb607bfa80 URI:https://www.googleapis.com/youtube/v3/search?key=AIzaSyASrJQl-AjvuIQ4nS9w9fbXOie9M0Lc4nM&maxResults=2&part=id%2Csnippet&q=asmr%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%97%E3%83%BC&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Expires", "Mon, 25 Mar 2019 10:03:44 GMT"], ["Date", "Mon, 25 Mar 2019 10:03:44 GMT"], ["Cache-Control", "private, max-age=120, must-revalidate, no-transform"], ["ETag", "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/k0vxFk8Vyk9b5_abAajUSbImgYY\""], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Content-Type", "application/json; charset=UTF-8"], ["Content-Encoding", "gzip"], ["X-Content-Type-Options", "nosniff"], ["X-Frame-Options", "SAMEORIGIN"], ["X-XSS-Protection", "1; mode=block"], ["Server", "GSE"], ["Alt-Svc", "quic=\":443\"; ma=2592000; v=\"46,44,43,39\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=*.googleapis.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=Google Internet Authority G3,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fd6c3800bc8>, not_before=2019-03-01 09:38:11 UTC, not_after=2019-05-24 09:25:00 UTC>, @http_body=#<HTTP::Message::Body:0x00007fd6c0f7eb50 @body="{\n \"kind\": \"youtube#searchListResponse\",\n \"etag\": \"\\\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/k0vxFk8Vyk9b5_abAajUSbImgYY\\\"\",\n \"nextPageToken\": \"CAIQAA\",\n \"regionCode\": \"JP\",\n \"pageInfo\": {\n  \"totalResults\": 21057,\n  \"resultsPerPage\": 2\n },\n \"items\": [\n  {\n   \"kind\": \"youtube#searchResult\",\n   \"etag\": \"\\\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/hPjnc_w1yUs9-FLyzeunbuNXRMA\\\"\",\n   \"id\": {\n    \"kind\": \"youtube#video\",\n    \"videoId\": \"RCT8hGGnTjw\"\n   },\n   \"snippet\": {\n    \"publishedAt\": \"2016-01-15T10:25:17.000Z\",\n    \"channelId\": \"UCBP83PPp_c92rmP3A6R7nZQ\",\n    \"title\": \"[音フェチ]シャンプー/Shampoo&amp;Water Sounds[ASMR]\",\n    \"description\": \"\\\"洗髪の時に、どーしても水の音が欲しいです\\\"など多くのリクエストいただきました＼(^o^)／ おすすめ ロングヘアーをシャンプー ↳https://youtu.be/Y...\",\n    \"thumbnails\": {\n     \"default\": {\n      \"url\": \"https://i.ytimg.com/vi/RCT8hGGnTjw/default.jpg\",\n      \"width\": 120,\n      \"height\": 90\n     },\n     \"medium\": {\n      \"url\": \"https://i.ytimg.com/vi/RCT8hGGnTjw/mqdefault.jpg\",\n      \"width\": 320,\n      \"height\": 180\n     },\n     \"high\": {\n      \"url\": \"https://i.ytimg.com/vi/RCT8hGGnTjw/hqdefault.jpg\",\n      \"width\": 480,\n      \"height\": 360\n     }\n    },\n    \"channelTitle\": \"YAACHAMA J-ASMR\",\n    \"liveBroadcastContent\": \"none\"\n   }\n  },\n  {\n   \"kind\": \"youtube#searchResult\",\n   \"etag\": \"\\\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/3iUsTPJOYW0vm2U_9dpX1cezhyo\\\"\",\n   \"id\": {\n    \"kind\": \"youtube#video\",\n    \"videoId\": \"QKhybUVP9uI\"\n   },\n   \"snippet\": {\n    \"publishedAt\": \"2017-10-10T18:27:16.000Z\",\n    \"channelId\": \"UCAnhZ63EvTRJVvEM5uB7FDA\",\n    \"title\": \"#1【ASMR】 Gentle Shampoo And  Massage リラックスシャンプー\",\n    \"description\": \"美容師による美容院でのシャンプーasmr動画。 音フェチなら誰もが聞いた事のあるシャンプー動画。 今回はウィッグではなく人の頭でシャンプー...\",\n    \"thumbnails\": {\n     \"default\": {\n      \"url\": \"https://i.ytimg.com/vi/QKhybUVP9uI/default.jpg\",\n      \"width\": 120,\n      \"height\": 90\n     },\n     \"medium\": {\n      \"url\": \"https://i.ytimg.com/vi/QKhybUVP9uI/mqdefault.jpg\",\n      \"width\": 320,\n      \"height\": 180\n     },\n     \"high\": {\n      \"url\": \"https://i.ytimg.com/vi/QKhybUVP9uI/hqdefault.jpg\",\n      \"width\": 480,\n      \"height\": 360\n     }\n    },\n    \"channelTitle\": \"ASMR YUMA CHANNEL\",\n    \"liveBroadcastContent\": \"none\"\n   }\n  }\n ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fd6c0f82f20
+ @etag="\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/k0vxFk8Vyk9b5_abAajUSbImgYY\"",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fd6c0f80310
+    @etag="\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/hPjnc_w1yUs9-FLyzeunbuNXRMA\"",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6c3823a60
+      @kind="youtube#video",
+      @video_id="RCT8hGGnTjw">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6c3822958
+      @channel_id="UCBP83PPp_c92rmP3A6R7nZQ",
+      @channel_title="YAACHAMA J-ASMR",
+      @description=
+       "\"洗髪の時に、どーしても水の音が欲しいです\"など多くのリクエストいただきました＼(^o^)／ おすすめ ロングヘアーをシャンプー ↳https://youtu.be/Y...",
+      @live_broadcast_content="none",
+      @published_at=Fri, 15 Jan 2016 10:25:17 +0000,
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6c3821120
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6c3820928
+          @height=90,
+          @url="https://i.ytimg.com/vi/RCT8hGGnTjw/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6c3813bd8
+          @height=360,
+          @url="https://i.ytimg.com/vi/RCT8hGGnTjw/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6c3812df0
+          @height=180,
+          @url="https://i.ytimg.com/vi/RCT8hGGnTjw/mqdefault.jpg",
+          @width=320>>,
+      @title="[音フェチ]シャンプー/Shampoo&amp;Water Sounds[ASMR]">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6c3811b30
+    @etag="\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/3iUsTPJOYW0vm2U_9dpX1cezhyo\"",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6c3810f78
+      @kind="youtube#video",
+      @video_id="QKhybUVP9uI">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6c3747d58
+      @channel_id="UCAnhZ63EvTRJVvEM5uB7FDA",
+      @channel_title="ASMR YUMA CHANNEL",
+      @description=
+       "美容師による美容院でのシャンプーasmr動画。 音フェチなら誰もが聞いた事のあるシャンプー動画。 今回はウィッグではなく人の頭でシャンプー...",
+      @live_broadcast_content="none",
+      @published_at=Tue, 10 Oct 2017 18:27:16 +0000,
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6c3746728
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6c3746048
+          @height=90,
+          @url="https://i.ytimg.com/vi/QKhybUVP9uI/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6c3745058
+          @height=360,
+          @url="https://i.ytimg.com/vi/QKhybUVP9uI/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6c382bcd8
+          @height=180,
+          @url="https://i.ytimg.com/vi/QKhybUVP9uI/mqdefault.jpg",
+          @width=320>>,
+      @title="#1【ASMR】 Gentle Shampoo And  Massage リラックスシャンプー">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAIQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fd6c382a1a8
+   @results_per_page=2,
+   @total_results=21057>,
+ @region_code="JP">
+
+  Rendering home/search_list.html.erb within layouts/application
+  Rendered home/search_list.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 567ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/sound_search" for ::1 at 2019-03-25 19:03:50 +0900
+Processing by HomeController#sound_search as HTML
+  Rendering home/sound_search.html.erb within layouts/application
+  Rendered home/sound_search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 61ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/asmr_top" for ::1 at 2019-03-25 19:03:56 +0900
+Processing by HomeController#asmr_top as HTML
+  Rendering home/asmr_top.html.erb within layouts/application
+  Rendered shared/_form.html.erb (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:9
+  Rendered shared/_header.html.erb (2.8ms)
+  Rendered home/asmr_top.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 72ms (Views: 66.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/..." for ::1 at 2019-03-25 19:03:57 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/home/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favorite" for ::1 at 2019-03-25 19:03:58 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for ::1 at 2019-03-25 19:03:58 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.5.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.5.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.5.0/gems/railties-5.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.5.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favorite" for ::1 at 2019-03-25 19:04:54 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 59ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 19:04:59 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 68ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favorite" for ::1 at 2019-03-25 19:05:15 +0900
+Processing by HomeController#favorite as HTML
+  Rendering home/favorite.html.erb within layouts/application
+  Rendered home/favorite.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 64ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2019-03-25 19:06:48 +0900 ===
+- Goodbye!
+Exiting
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ git gs
+On branch sample
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   app/assets/stylesheets/application.scss[m
+	[31mmodified:   app/views/home/favorite.html.erb[m
+	[31mmodified:   app/views/home/sound_search.html.erb[m
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[32mtakahashikeigo@takahashikeigonoMacBook-Air[00m:[36m~/origin_app[00m (sample *)[00m
+$ 
