@@ -1,0 +1,57 @@
+<div class = "artist_box text-white">
+  <div class = "fight row">
+    <div class = "col-md-4 offset-1 mt-1">
+      <div class = "artist_muki">
+      </div>
+    </div>
+
+    <div class = "text-white col-md-6 offset-1">
+      <h1 class = "ppomo text-center pt-5">高倉むき</h1>
+      <h3 class = "pt-5">応援メッセージやおすすめの動画の共有しましょう！</h3>
+      <%= button_tag "感想を投稿", id: "fight_button", class: "btn btn-success mt-5", data: { toggle: "modal", target: "#message_post" } %>
+    </div>
+  </div>
+</div>
+
+
+<%# ここからはモーダルです %>
+
+<div class="modal fade" id="message_post">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">応援メッセージ</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <%= form_for @review, url: reviews_create_path do |f| %>
+
+            <div class="form-group">
+              <%= f.label "アーティスト名" %>
+              <%= f.text_field :asmr, class: "form-control" %>
+            </div>
+
+            <div class="form-group">
+              <%= f.label "タイトル" %>
+              <%= f.text_field :title, class: "form-control" %>
+            </div>
+
+            <div class="form-group">
+              <%= f.label "本文" %>
+              <%= f.text_area :body, rows: 6, class: "form-control" %>
+            </div>
+          <%= f.submit "感謝の正拳突き", class: "btn btn-primary" %>
+        <% end %>
+
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">戻る</button>
+      </div>
+
+    </div>
+  </div>
+</div>

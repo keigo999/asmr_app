@@ -1,12 +1,14 @@
-<div class = "artist_box">
-  <div class = "row">
-    <div class = "artist_header col-md-4 offset-1">
+<div class = "artist_box text-white">
+  <div class = "fight row">
+    <div class = "col-md-4 offset-1 mt-1">
+      <div class = "artist_jae">
+      </div>
     </div>
 
     <div class = "text-white col-md-6 offset-1">
-      <h1 class = "ppomo text-center pt-5">PPOMO</h1>
+      <h1 class = "ppomo text-center pt-5">Jae</h1>
       <h3 class = "pt-5">応援メッセージやおすすめの動画の共有しましょう！</h3>
-      <%= button_tag "感想を投稿", class: "btn btn-success", data: { toggle: "modal", target: "#message_post" } %>
+      <%= button_tag "感想を投稿", id: "fight_button", class: "btn btn-success mt-5", data: { toggle: "modal", target: "#message_post" } %>
     </div>
   </div>
 </div>
@@ -25,11 +27,11 @@
       </div>
       <div class="modal-body">
 
-        <%= form_for([@review,@artist],url: reviews_create_path) do |f| %>
+        <%= form_for @review, url: reviews_create_path do |f| %>
 
             <div class="form-group">
               <%= f.label "アーティスト名" %>
-              <%= f.text_field :name, class: "form-control" %>
+              <%= f.text_field :asmr, class: "form-control" %>
             </div>
 
             <div class="form-group">
@@ -45,9 +47,11 @@
         <% end %>
 
       </div>
+
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">戻る</button>
       </div>
+
     </div>
   </div>
 </div>

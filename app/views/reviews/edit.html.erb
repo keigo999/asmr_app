@@ -1,2 +1,12 @@
-<h1>Reviews#edit</h1>
-<p>Find me in app/views/reviews/edit.html.erb</p>
+<div class = "">
+  <div class = "ppomo_header">
+  </div>
+
+  <% @reviews.each do |review| %>
+    <div class = "review_box pl-3 mt-3">
+        <p class = "pt-3">ニックネーム:<%= review.user.name %></p>
+        <p><%= review.title %></p>
+        <p class = "pt-3"><%= review.body %></p>
+    </div>
+  <% end %>
+</div>

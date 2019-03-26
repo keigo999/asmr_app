@@ -1,7 +1,7 @@
 class RakutenController < ApplicationController
   
   def items_search
-    search_rakuten_api("イヤホン")
+    search_rakuten_api("まくら")
   end
 
   def eye

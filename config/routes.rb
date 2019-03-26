@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  
   get 'rakuten/product'
   root "sessions#top"
   get "home/asmr_top" => "home#asmr_top"
@@ -20,9 +21,10 @@ Rails.application.routes.draw do
   delete "/logout" => "sessions#destroy"
 
   # asmr検索用特殊ルート(耳かき、シャンプー、タッピング)
-  get "home/head_spa" => "home#head_spa"
-  get "home/ear_pick" => "home#ear_pick"
-  get "home/typing" => "home#typing"
+  get "/head_spa" => "home#head_spa"
+  get "/ear_pick" => "home#ear_pick"
+  get "/typing" => "home#typing"
+  get "/random" => "home#random"
 
   # 商品紹介ページ
   get "rakuten/items" => "rakuten#items_search"
@@ -33,4 +35,16 @@ Rails.application.routes.draw do
   get "/aroma" => "rakuten#aroma"
   get "/query" =>"rakuten#search_rakuten"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  # reviewアーティストルート
+  get 'reviews/edit' => "reviews#edit"
+  get "/ppomo" => "reviews#ppomo"
+  get "/hatomugi" => "reviews#hatomugi"
+  get "/cham" => "reviews#cham"
+  get "/muki" => "reviews#muki"
+  get "/umino" => "reviews#umino"
+  get "/jae" => "reviews#jae"
+  post "reviews/create" => "reviews#create"
+
+
 end

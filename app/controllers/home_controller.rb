@@ -53,6 +53,8 @@ class HomeController < ApplicationController
   end
 
   def random
-    
+    @query = ["asmr耳かき", "asmrボイス", "asmrシャンプー", "asmrアロエ", "asmr砂"].shuffle[1]
+    search_only(@query)
+    render "random"
   end
 end
