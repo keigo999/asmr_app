@@ -312,6 +312,42 @@
   background-size: cover;
 }
 
+.hatomugi_header {
+  width: 50%;
+  height: 450px;
+  background-image: url("hatomugi.jpg");
+  background-size: cover;
+}
+
+.cham_header {
+  width: 50%;
+  height: 450px;
+  background-image: url("cham.jpg");
+  background-size: cover;
+}
+
+.muki_header {
+  width: 50%;
+  height: 450px;
+  background-image: url("muki.jpg");
+  background-size: cover;
+}
+
+.umino_header {
+  width: 50%;
+  height: 450px;
+  background-image: url("umino.jpg");
+  background-size: cover;
+  border: solid 1px white;
+}
+
+.jae_header {
+  width: 50%;
+  height: 450px;
+  background-image: url("jae.jpg");
+  background-size: cover;
+}
+
 .review_box {
   border: solid 1px white;
 }
@@ -335,8 +371,6 @@
 }
 
 // むきヘッダー
-
-
 
 .artist_muki {
   width: 400px;

@@ -65,10 +65,28 @@ class ReviewsController < ApplicationController
     @reviews = Review.where(asmr: "ppomo").page(params[:page]).per(5)
   end
 
+  def hatomugi_share
+    @reviews = Review.where(asmr: "hatomugi").page(params[:page]).per(5)
+  end
+
+  def cham_share
+    @reviews = Review.where(asmr: "cham").page(params[:page]).per(5)
+  end
+
+  def muki_share
+    @reviews = Review.where(asmr: "muki").page(params[:page]).per(5)
+  end
+
+  def umino_share
+    @reviews = Review.where(asmr: "umino").page(params[:page]).per(5)
+  end
+
+  def jae_share
+    @reviews = Review.where(asmr: "jae").page(params[:page]).per(5)
+  end
 
 
-
-  # クレジット処理
+  # クレジット処理(今回は実装しきれていません)
   def pay
   end
 

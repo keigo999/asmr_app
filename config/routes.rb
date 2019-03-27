@@ -1,22 +1,18 @@
 Rails.application.routes.draw do
   root "sessions#top"
-  get 'rakuten/product'
+
+  # homeコントローラー
   get "home/asmr_top" => "home#asmr_top"
-
   get "/favorite" => "home#favorite"
-
   get "/sound_search" => "home#sound_search"
-
   post "home/search_list" => "home#search_list"
-
   get "home/search_list" => "home#search_response"
 
+
+  # sessionコントローラー
   post "sessions/create" => "sessions#create"
-
   post "sessions/login" => "sessions#login"
-  
   get 'sessions/top' => "sessions#top"
-
   delete "/logout" => "sessions#destroy"
 
   # asmr検索用特殊ルート(耳かき、シャンプー、タッピング)
