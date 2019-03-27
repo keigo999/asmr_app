@@ -1,41 +1,47 @@
 <div class = "sound_image">
-  <h2 class = "text-center pt-5 text-white">検索</h2>
+  <h2 class = "text-center pt-5 text-white">検索フォーム</h2>
     <%= form_with url: home_search_list_path, local: true do |f| %>
       <div class="form-group col-md-6 mx-auto" id = "search_form">
         <%=  f.search_field :query, placeholder: "例  耳かき シャンプー 水の音", class: "form-control" %>
-        <button class="btn btn-info" type="submit">検索</button>
+        <button class="btn btn-info btn-block" type="submit">検索</button>
       </div>
     <% end %>
 
-  <div class = "container">
+  <div class = "container pt-5">
     <div class="row text-center text-white">
+      
       <div  class = "col-md-4 offset-md-2">
         <div class = "mini box1">
           <a href="/head_spa" id = "link"></a>
           <p>シャンプー</p>
         </div>
       </div>
+
       <div class = "col-md-4">
         <div class = "mini box2">
           <a href="/ear_pick" id = "link"></a>
           <p>耳かき</p>
         </div>
       </div>
+
     </div>
     
     <div class="row text-center text-white pt-5">
+      
       <div  class = "col-md-4 offset-md-2">
         <div class = "mini box3">
           <a href="/typing" id = "link"></a>
           <p>タッピング</p>
         </div>
       </div>
+      
       <div class = "col-md-4">
         <div class = "mini box4">
           <a href="/random" id = "link"></a>
           <p>ランダム</p>
         </div>
       </div>
+      
     </div>
   </div>
 </div>

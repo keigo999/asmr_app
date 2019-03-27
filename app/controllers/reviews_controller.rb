@@ -1,11 +1,6 @@
 class ReviewsController < ApplicationController
   include SessionsHelper
 
-  def edit
-    @reviews = Review.where(asmr: "ppomo")
-  end
-
-
   def create
     @review = Review.new(review_params)
     @review.attributes = {user_id: current_user.id}
@@ -15,21 +10,21 @@ class ReviewsController < ApplicationController
         redirect_to reviews_edit_path
       when "hatomugi"
         @review.save
-        redirect_to hatomugi_path
+        redirect_to hatomugi_share_path
       when "cham"
         @review.save
-        redirect_to cham_path
+        redirect_to cham_share_path
       when "muki"
         @review.save
-        redirect_to muki_path
+        redirect_to muki_share_path
       when "umino"
         @review.save
-        redirect_to umino_path
+        redirect_to umino_share_path
       when "jae"
         @review.save
-        redirect_to jae_path
+        redirect_to jae_share_path
       else
-        render "favorite"
+        redirect_to favorite_path
       end
   end
 
@@ -37,26 +32,51 @@ class ReviewsController < ApplicationController
 
   def ppomo
     @review = Review.new
+    @name = "ppomo"
   end
 
   def hatomugi
     @review = Review.new
+    @name = "hatomugi"
   end
 
   def muki
     @review = Review.new
+    @name = "muki"
   end
 
   def cham
     @review = Review.new
+    @name = "cham"
   end
 
   def umino
     @review = Review.new
+    @name = "umino"
   end
 
   def jae
     @review = Review.new
+    @name = "jae"
+  end
+
+  # アーティスト応援ページ
+  def edit
+    @reviews = Review.where(asmr: "ppomo").page(params[:page]).per(5)
+  end
+
+
+
+
+  # クレジット処理
+  def pay
+  end
+
+  def purchase
+    Payjp.api_key = PAYJP_SECRET_KEY
+    Payjp::Charge.create(currency: 'jpy', amount: 1000, card: params['payjp-token'])
+    flash[:notice] = "ご支援ありがとうございます"
+    redirect_to root_path
   end
 
   private

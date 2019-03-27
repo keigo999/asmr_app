@@ -313,7 +313,7 @@
 }
 
 .review_box {
-  border: solid 1px black;
+  border: solid 1px white;
 }
 
 // ハトムギヘッダー
@@ -366,4 +366,24 @@
 
 a {
   text-decoration: none ;
+}
+
+// アーティストレビューページ
+
+.artist_review_box {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.font_heart_box {
+  padding-top: 100px;
+}
+
+.font_heart {
+  padding-left: 20%;
+}
+
+.my_pink {
+  color: pink;
 }

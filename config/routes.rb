@@ -1,12 +1,11 @@
 Rails.application.routes.draw do
-  
-  get 'rakuten/product'
   root "sessions#top"
+  get 'rakuten/product'
   get "home/asmr_top" => "home#asmr_top"
 
   get "/favorite" => "home#favorite"
 
-  get "home/sound_search" => "home#sound_search"
+  get "/sound_search" => "home#sound_search"
 
   post "home/search_list" => "home#search_list"
 
@@ -37,7 +36,6 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   # reviewアーティストルート
-  get 'reviews/edit' => "reviews#edit"
   get "/ppomo" => "reviews#ppomo"
   get "/hatomugi" => "reviews#hatomugi"
   get "/cham" => "reviews#cham"
@@ -46,5 +44,16 @@ Rails.application.routes.draw do
   get "/jae" => "reviews#jae"
   post "reviews/create" => "reviews#create"
 
+  #クレジットカードルート
+  get "/pay" => "reviews#pay"
+  post "/pay" => "reviews#purchase"
+
+  # アーティスト応援メッセージ
+  get 'reviews/edit' => "reviews#edit"
+  get "/hatomugi_share" => "reviews#hatomugi_share"
+  get "/cham_share" => "reviews#cham_share"
+  get "/muki_share" => "reviews#muki_share"
+  get "/umino_share" => "reviews#umino_share"
+  get "/jae_share" => "reviews#jae_share"
 
 end
