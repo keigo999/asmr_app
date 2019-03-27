@@ -46,8 +46,8 @@
 }
 
 .message_box {
-  color:white;
   text-align: center;
+  font-family: 'Noto Serif SC', serif;
 }
 
 .message1 {
@@ -61,15 +61,18 @@
   width: 100%;
   height: 500px;
   background-color: #03082A;
+  font-family: 'Noto Serif SC', serif;
 }
 
 .card {
   height: 300px;
+  padding: 0;
+  color:  #C0C0C0;
+  background-color: black;
+  font-family: 'Crete Round', serif;
 }
 
-.card1 {
-  background-image: url()
-}
+
 
 .card2 {
   background-image: url()
@@ -85,6 +88,7 @@
 
 
 
+
 .asmr_3 {
   width: 100%;
   height: 600px;
@@ -92,6 +96,7 @@
   background-size: cover;
   margin-top: 50px;
   margin: 0;
+  font-family: 'Noto Serif SC', serif;
 }
 
 

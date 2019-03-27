@@ -9,23 +9,23 @@ class ReviewsController < ApplicationController
   def create
     @review = Review.new(review_params)
     @review.attributes = {user_id: current_user.id}
-      case @review.title 
-      when ppomo
+      case @review.asmr 
+      when "ppomo"
         @review.save
-        redirect_to ppomo_path
-      when hatomugi
+        redirect_to reviews_edit_path
+      when "hatomugi"
         @review.save
         redirect_to hatomugi_path
-      when cham
+      when "cham"
         @review.save
         redirect_to cham_path
-      when muki
+      when "muki"
         @review.save
         redirect_to muki_path
-      when umino
+      when "umino"
         @review.save
         redirect_to umino_path
-      when jae
+      when "jae"
         @review.save
         redirect_to jae_path
       else
