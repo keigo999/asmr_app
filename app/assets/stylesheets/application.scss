@@ -46,8 +46,8 @@
 }
 
 .message_box {
-  color:white;
   text-align: center;
+  font-family: 'Noto Serif SC', serif;
 }
 
 .message1 {
@@ -61,15 +61,18 @@
   width: 100%;
   height: 500px;
   background-color: #03082A;
+  font-family: 'Noto Serif SC', serif;
 }
 
 .card {
   height: 300px;
+  padding: 0;
+  color:  #C0C0C0;
+  background-color: black;
+  font-family: 'Crete Round', serif;
 }
 
-.card1 {
-  background-image: url()
-}
+
 
 .card2 {
   background-image: url()
@@ -85,6 +88,7 @@
 
 
 
+
 .asmr_3 {
   width: 100%;
   height: 600px;
@@ -92,6 +96,7 @@
   background-size: cover;
   margin-top: 50px;
   margin: 0;
+  font-family: 'Noto Serif SC', serif;
 }
 
 
@@ -109,6 +114,11 @@
   background-image: url("PPOMO.jpg");
   background-size: cover;
   border-radius: 50%;
+}
+
+.artist_header {
+  background-image: url("PPOMO.jpg");
+  background-size: cover;
 }
 
 .asmr_face2 {
@@ -150,6 +160,29 @@
   background-image: url("jae.jpg");
   background-size: cover;
   border-radius: 50%;
+}
+
+// artist.rb
+
+.artist_box {
+  width: 100%;
+  height: 1000px;
+  background-color: black;
+}
+
+.fight {
+  padding-top: 200px;
+}
+
+#fight_button {
+  margin-left: 42%;
+}
+
+.artist_top {
+  width: 400px;
+  height: 300px;
+  background-image: url("PPOMO.jpg");
+  background-size: cover;
 }
 
 // sound_search.html.erb
@@ -215,10 +248,19 @@
 
 .search_list_box {
   width: 100%;
-  height: 1000px;
+  height: 100%;
   background-image: url("search_list_box.jpg");
   background-size: cover;
   color: white;
+}
+
+// random.html.erb
+
+.random_box {
+  width: 100%;
+  height: 1000px;
+  background-image: url("search_list_box.jpg");
+  background-size: cover;
 }
 
 // 楽天 items_search
@@ -256,4 +298,126 @@
 .item img {
   width: 200px;
   height: 170px;
+}
+
+
+// アーティストレビューページ
+
+
+
+.ppomo_header {
+  width: 50%;
+  height: 450px;
+  background-image: url("PPOMO.jpg");
+  background-size: cover;
+}
+
+.hatomugi_header {
+  width: 50%;
+  height: 450px;
+  background-image: url("hatomugi.jpg");
+  background-size: cover;
+}
+
+.cham_header {
+  width: 50%;
+  height: 450px;
+  background-image: url("cham.jpg");
+  background-size: cover;
+}
+
+.muki_header {
+  width: 50%;
+  height: 450px;
+  background-image: url("muki.jpg");
+  background-size: cover;
+}
+
+.umino_header {
+  width: 50%;
+  height: 450px;
+  background-image: url("umino.jpg");
+  background-size: cover;
+  border: solid 1px white;
+}
+
+.jae_header {
+  width: 50%;
+  height: 450px;
+  background-image: url("jae.jpg");
+  background-size: cover;
+}
+
+.review_box {
+  border: solid 1px white;
+}
+
+// ハトムギヘッダー
+
+.artist_hatomugi {
+  width: 400px;
+  height: 300px;
+  background-image: url("hatomugi.jpg");
+  background-size: cover;
+}
+
+// chamヘッダー
+
+.artist_cham {
+  width: 400px;
+  height: 300px;
+  background-image: url("cham.jpg");
+  background-size: cover;
+}
+
+// むきヘッダー
+
+.artist_muki {
+  width: 400px;
+  height: 300px;
+  background-image: url("muki.jpg");
+  background-size: cover;
+}
+
+// uminoヘッダー
+
+.artist_umino {
+  width: 400px;
+  height: 300px;
+  background-image: url("umino.jpg");
+  background-size: cover;
+  border: 1px solid white;
+}
+
+// jaeヘッダー
+
+.artist_jae {
+  width: 400px;
+  height: 300px;
+  background-image: url("jae.jpg");
+  background-size: cover;
+}
+
+a {
+  text-decoration: none ;
+}
+
+// アーティストレビューページ
+
+.artist_review_box {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.font_heart_box {
+  padding-top: 100px;
+}
+
+.font_heart {
+  padding-left: 20%;
+}
+
+.my_pink {
+  color: pink;
 }

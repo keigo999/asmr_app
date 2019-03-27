@@ -1,26 +1,26 @@
 <div class = "header">
     <div class="row pt-5">
-      <a href="/sessions/top" class="nav-brand col-sm-1 pl-5" style = "font-size: 30px" id = "logo">MoonNight</a>
+      <a href="/sessions/top" class="nav-brand text-warning col-sm-1 pl-5" style = "font-size: 30px" id = "logo">MoonNight</a>
       <ul class="nav justify-content-end col-sm-11 pr-5" style = "font-size: 20px" id = "head_navi">
         <% if logged_in? %>
           <li class="nav-item">
-            <a href="sound_search" class="nav-link navbar-right">音を探す</a>
+            <a href="/sound_search" class="nav-link navbar-right text-warning">音を探す</a>
           </li class="nav-item">
           <li>
-            <a href="/rakuten/items" class="nav-link">睡眠グッズ</a>
+            <a href="/rakuten/items" class="nav-link text-warning">睡眠グッズ</a>
           </li>
           <li>
-            <%= link_to "お気に入り登録", favorite_path, class: "nav-link" %>
+            <%= link_to "シェア広場", favorite_path, class: "nav-link text-warning" %>
           </li>
           <li>
-            <%= link_to "ログアウト", logout_path, method: :delete, class: "nav-link" %>
+            <%= link_to "ログアウト", logout_path, method: :delete, class: "nav-link text-warning" %>
           </li>
         <% else %>
           <li class="nav-item">
-            <a href="sound_search" class="nav-link navbar-right">音を探す</a>
+            <a href="/sound_search" class="nav-link navbar-right text-warning">音を探す</a>
           </li class="nav-item">
           <li>
-            <a href="#" class="nav-link">睡眠グッズ</a>
+            <a href="#" class="nav-link text-warning">睡眠グッズ</a>
           </li>
         <% end %>
       </ul>

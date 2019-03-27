@@ -1,0 +1,16 @@
+<div class = "artist_box text-white">
+  <div class = "fight row">
+    <div class = "col-md-4 offset-1 mt-1">
+      <div class = "artist_muki">
+      </div>
+    </div>
+
+    <div class = "text-white col-md-6 offset-1">
+      <h1 class = "ppomo text-center pt-5">高倉むき</h1>
+      <h3 class = "pt-5">応援メッセージやおすすめの動画の共有しましょう！</h3>
+      <%= button_tag "感想を投稿", id: "fight_button", class: "btn btn-success mt-5", data: { toggle: "modal", target: "#message_post" } %>
+    </div>
+  </div>
+</div>
+
+<%= render "shared/modal" %>
