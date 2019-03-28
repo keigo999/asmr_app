@@ -22,6 +22,7 @@ Rails.application.routes.draw do
   get "/random" => "home#random"
 
   # 商品紹介ページ
+  get "/product" => "rakuten#product"
   get "rakuten/items" => "rakuten#items_search"
 
   # 運営おすすめ商品
