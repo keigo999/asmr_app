@@ -1,6 +1,8 @@
 class ReviewsController < ApplicationController
   include SessionsHelper
+  before_action :set_review, only:[:ppomo, :hatomugi, :cham, :muki, :umino, :jae] 
 
+  # コメント送信後アクション
   def create
     @review = Review.new(review_params)
     @review.attributes = {user_id: current_user.id}
@@ -28,61 +30,56 @@ class ReviewsController < ApplicationController
       end
   end
 
-  # 各アーティスト
+  # 各アーティスト(favorite.html.erb)
 
   def ppomo
-    @review = Review.new
     @name = "ppomo"
   end
 
   def hatomugi
-    @review = Review.new
     @name = "hatomugi"
   end
 
   def muki
-    @review = Review.new
     @name = "muki"
   end
 
   def cham
-    @review = Review.new
     @name = "cham"
   end
 
   def umino
-    @review = Review.new
     @name = "umino"
   end
 
   def jae
-    @review = Review.new
     @name = "jae"
   end
 
-  # アーティスト応援ページ
+  # アーティスト応援ページ(~share.html.erb)
   def edit
-    @reviews = Review.where(asmr: "ppomo").page(params[:page]).per(5)
+    @reviews = Review.where(asmr: "ppomo").page(params[:page]).per(5).order(created_at: :desc)
   end
 
   def hatomugi_share
-    @reviews = Review.where(asmr: "hatomugi").page(params[:page]).per(5)
+    @reviews = Review.where(asmr: "hatomugi").page(params[:page]).per(5).order(created_at: :desc)
   end
 
   def cham_share
-    @reviews = Review.where(asmr: "cham").page(params[:page]).per(5)
+    @reviews = Review.where(asmr: "cham").page(params[:page]).per(5).order(created_at: :desc)
   end
 
+
   def muki_share
-    @reviews = Review.where(asmr: "muki").page(params[:page]).per(5)
+    @reviews = Review.where(asmr: "muki").page(params[:page]).per(5).order(created_at: :desc)
   end
 
   def umino_share
-    @reviews = Review.where(asmr: "umino").page(params[:page]).per(5)
+    @reviews = Review.where(asmr: "umino").page(params[:page]).per(5).order(created_at: :desc)
   end
 
   def jae_share
-    @reviews = Review.where(asmr: "jae").page(params[:page]).per(5)
+    @reviews = Review.where(asmr: "jae").page(params[:page]).per(5).order(created_at: :desc)
   end
 
 
@@ -101,5 +98,9 @@ class ReviewsController < ApplicationController
 
   def review_params
     params.require(:review).permit(:asmr, :title, :body, :user_id)
+  end
+
+  def set_review
+    @review = Review.new
   end
 end

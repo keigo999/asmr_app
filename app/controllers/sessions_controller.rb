@@ -17,6 +17,7 @@ class SessionsController < ApplicationController
     end
   end
 
+  # user登録
   def create
     @user = User.new(user_params)
     if @user.save

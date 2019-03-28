@@ -19,6 +19,13 @@ class RakutenController < ApplicationController
     render "items_search"
   end
 
+  # 検索フォーム用ルート
+  def product
+    q = params[:query]
+    search_rakuten_api(q)
+    render "items_search"
+  end
+
   
   
   
